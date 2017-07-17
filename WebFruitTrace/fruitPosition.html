@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>果园位置</title>
+		<link rel="stylesheet" href="css/jquery.mobile-1.4.5.css" />
+		<link rel="stylesheet" href="css/fruitPosition.css" />
+		<script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+		<script type="text/javascript" src="js/jquery.mobile-1.4.5.js"></script>
+		<script type="text/javascript" src="js/fruitPosition.js" ></script>
+	</head>
+	<body>
+		<div data-role = "page" style="height: 100%;">
+			<div data-role = "main" class="content">
+				<div class="mainDiv">
+					<div class="logo">
+						<img src="img/logo.png" class="logoImg"/>
+					</div>
+					<div class="topInfo">
+						<div class="topImg">
+							<img src="img/portrait.jpg" class="head"/>
+						</div>
+						<div class="topNamePos">
+							<span>来自基地管理员</span><span id="adminName">张三</span><span>管理片区</span><br/>
+							<span id="fruitPosition">陕西省西安市未央区</span>
+							<span id="jName">宝鸡</span><span>基地</span>
+						</div>
+					</div>
+					<div class="middleInfo">
+						<img src="img/果园位置.png" id="fruitPositonImg" />
+					</div>
+					<!--<div class="bottomInfo" style="border: 1px solid red;">-->
+						<div class="swipe">
+							<a class="ui-btn ui-icon-carat-u ui-btn-icon-bottom" data-transition="slideup" href="orchardInfo.html" data-ajax = "false">点击我加载下一页</a>
+						</div>
+						<footer data-role="footer" data-position="fixed" style="height: 50px;">
+							       		<div data-role = "navbar">
+							       			<ul>
+							       				<li><a class="ui-btn-active ui-icon-info ui-btn-icon-top">溯源信息</a></li>
+							       				<li><a class="ui-btn ui-icon-grid ui-btn-icon-top">追溯流程</a></li>
+							       				<li><a class="ui-btn ui-icon-shop ui-btn-icon-top">立即购买</a></li>
+							       				<li><a class="ui-btn ui-icon-comment ui-btn-icon-top">联系我们</a></li>
+							       			</ul>
+							       		</div>
+				    	</footer>	
+					<!--</div>-->
+				</div>	
+			</div>
+		</div>
+	</body>
+</html>

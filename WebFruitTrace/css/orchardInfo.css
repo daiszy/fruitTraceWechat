@@ -1,0 +1,110 @@
+html,body
+{
+	height: 100%;
+	width: 100%;
+}
+table tr td
+{
+	border: 2px solid gainsboro;
+}
+.logo
+{
+	height: 10%;
+	border-bottom: 2.2px solid gainsboro;
+}
+.logoImg
+{
+	height: 10%;
+	width: 50%;
+}
+.swipe
+{
+	height:60px;
+	width: 100%;
+	border: 0px solid black;
+	position: absolute;
+	bottom: 50px;	
+	    /*设置背景透明*/
+}
+.swipe a
+{
+	font-size: 0.5em;
+}
+.swipeNum
+{
+	height: 30%;
+	width: 100%;
+}
+.swipeNum img
+{
+	height: 200px;
+	width: 100%;
+	border-radius:10% ;
+	margin-bottom: 10px;
+	border: 2px solid gainsboro;
+}
+.IllumiImg
+{
+	height: 200px;
+	width: 100%;
+	border-radius:10% ;
+	border: 2px solid gainsboro; 
+}
+.swipeSeason img
+{
+	height: 30%;
+	width: 100%;
+}
+.descrip
+{
+	padding: 5px;
+	text-align: center;
+}
+.label
+{
+	text-align: center;
+	color: red;
+	font-size: 0.8em;
+	margin-top: 5px;
+}
+.labelDetail
+{
+	font-size: 0.7em;
+	text-indent: 2em;
+	margin-top: 10px;
+	margin-bottom: 8px;
+}
+.imgLeft
+{
+	display: inline;
+	font-size: 0.9em;	
+	margin-top: 5px;
+	width: 100%;
+}
+.num,.area
+{
+	width: 100%;
+	display: inline;
+	margin-left: 7%;
+	text-align: center;	
+
+}
+.swiper-container
+{
+	width: 100%;
+	height: 30%;
+}
+.seasonImg
+{
+	height: 20%;
+	width: 100%;
+}
+.swipe
+{
+	height:60px;
+	width: 100%;
+	border: 0px solid black;
+	position: absolute;
+	bottom: 60px;	
+	    /*设置背景透明*/
+}

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>果园基本信息显示</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" href="css/jquery.mobile-1.4.5.css" />
+		<link rel="stylesheet" href="css/swiper-3.4.2.min.css" />
+		<link rel="stylesheet" href="css/orchardInfo.css" />
+		<script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+		<script type="text/javascript" src="js/jquery.mobile-1.4.5.js"></script>
+		<script type="text/javascript" src="js/swiper-3.4.2.jquery.min.js" ></script>>
+		<script type="text/javascript" src="js/orchardInfo.js" ></script>
+	</head>
+	<body>
+		<div data-role = "page" style="height: 100%;">			
+			<div data-role = "main" style="height: 100%;">
+				<div class="logo">
+					<img src="img/logo.png" class="logoImg"/>
+				</div>
+				<div class="label">华圣基地介绍</div>
+				<div class="label">2017年气候追溯</div>
+				<div class="labelDetail">华圣基地位于东经109度，北纬35度的苹果优生区，远离海洋性气候，渭北黄土高原种植、土壤富含钾、镁、硒等多种微量元素。</div>
+				<!--滑动显示-->
+				<div class="swiper-container">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide">
+							<div class="swipeNum">
+								<img src="img/果园规模.jpg"/>
+								<div class="num">
+									<div class="imgLeft">果树数量:</div>
+									<div class="imgLeft" id="fruitNum">10000</div>
+									<div class="imgLeft">株</div>
+								</div>
+								<div class="area">
+									<div class="imgLeft">果树面积:</div>
+									<div class="imgLeft" id="fruitArea">10</div>
+									<div class="imgLeft">平方公里</div>
+								</div>						
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="swipeNum">
+								<img src="img/气候.jpg" class="IllumiImg"/>
+								<div class="num">
+									<span class="imgLeft">年光照时长:</span>
+									<span class="imgLeft" id="fruitIllumHour">2400</span>
+									<span class="imgLeft">小时</span>
+								</div>
+								<div class="area">
+									<div class="imgLeft">海拔:</div>
+									<div class="imgLeft" id="fruitHeight">1200</div>
+									<div class="imgLeft">米</div>
+								</div>	
+							</div>							
+						</div>
+						<div class="swiper-slide">
+							<!--<div class="swipeSeason">-->
+								<table>
+									<tr>
+										<td>
+											<img src="img/春天.jpg" class="seasonImg" id="spring"/>
+											<div class="descrip">春天</div>
+										</td>
+										<td>
+											<img src="img/夏天.jpg" class="seasonImg"/>
+											<div class="descrip">夏天</div>
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<img src="img/秋天.jpg" class="seasonImg"/>
+											<div class="descrip">秋天</div>
+										</td>
+										<td>
+											<img src="img/冬天.jpg" class="seasonImg"/>
+											<div class="descrip">冬天</div>
+										</td>
+									</tr>
+								</table>
+							<!--</div>-->
+						</div>		
+					</div>
+					<!-- 如果需要分页器 -->
+   					<div class="swiper-pagination"></div>
+   					<!-- 如果需要导航按钮 -->
+				    <div class="swiper-button-prev"></div>
+				    <div class="swiper-button-next"></div>
+				</div>
+			</div>	
+			<div class="swipe">
+				<a class="ui-btn ui-icon-carat-u ui-btn-icon-bottom" data-transition="slideup" href="farmInfo.html" data-ajax = "false">点击我加载下一页</a>
+			</div>
+			<footer data-role="footer" data-position="fixed" style="height: 50px;">
+				<div data-role = "navbar">
+					<ul>
+					    <li><a class="ui-btn-active ui-icon-info ui-btn-icon-top">溯源信息</a></li>
+					    <li><a class="ui-btn ui-icon-grid ui-btn-icon-top">追溯流程</a></li>
+					    <li><a class="ui-btn ui-icon-shop ui-btn-icon-top">立即购买</a></li>
+					    <li><a class="ui-btn ui-icon-comment ui-btn-icon-top">联系我们</a></li>
+					</ul>
+				</div>
+	    	</footer>			
+		</div>	
+	</body>
+</html>

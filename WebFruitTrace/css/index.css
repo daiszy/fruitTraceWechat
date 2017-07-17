@@ -1,0 +1,117 @@
+html,body
+{
+	margin: 0px;
+	padding: 0px;
+	height: 100%;
+	width: 100%;
+	overflow-y: hidden;
+}
+.mainDiv
+{
+	height: 100%;
+	width: 100%;
+	/*background-color: red;*/
+	
+}
+.topDiv
+{
+	width: 100%;
+	height: 10%;
+	border-bottom: 2.2px solid gainsboro;
+}
+.middleDiv 
+{
+	width: 100%;
+	height: 60%;
+	/*background-color: yellow;*/
+	background-size: cover;
+	display: inline-block;
+	margin-top: 20px;
+}
+.bottomDiv
+{
+ 	width: 100%;
+	height: 30%;
+	/*background-color: blue;*/
+	background-size: cover;
+	display: inline-block;
+}
+.fruitName
+{
+	color: red;
+	font-size: 0.8em;
+}
+.fruitSpan
+{
+	font-size: 0.8em;
+}
+.swipe
+{
+	height:60px;
+	width: 100%;
+	border: 0px solid black;
+	position: absolute;
+	bottom: 50px;	
+	     /*设置背景透明*/
+}
+.swipe a
+{
+	font-size: 0.5em;
+	
+}
+.swipe a:hover
+{
+	text-decoration: none;
+}
+.footer
+{
+	height: 50%;
+}
+.content
+{
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+.logoImg
+{
+	height: 10%;
+	width: 50%;
+}
+#swipeA
+{
+	/*position: absolute;
+	bottom: 60px;*/
+}
+#hint
+{
+	height: 100%;
+	width: 95%;
+	border: 0px;
+}
+
+#hintSpan
+{
+	/*background-color:#00FA9A;
+	color: white;*/
+	font-size: 1em;
+}
+#middleImg
+{
+	height: 80%;
+	width: 90%;
+	vertical-align: middle;
+	margin-top: -55px;
+	margin-left: 20px;
+}
+#leftTopImg,#middleTopImg,#rightTopImg
+{
+	/*position: relative;*/
+	height: 100%;
+	width: 32%;
+}
+#leftBottomImg,#rightBottomImg
+{
+	height: 100%;
+	width: 45%;
+}
