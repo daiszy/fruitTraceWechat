@@ -1,0 +1,11 @@
+$(function(){
+	$("#trace1").fadeIn(1000);
+	$("#trace2").fadeIn(3000);
+	$("#trace3").fadeIn(5000);
+	$("#trace4").fadeIn(7000);
+	$("#trace5").fadeIn(9000);
+	$("#trace6").fadeIn(11000);
+	$("#trace7").fadeIn(13000);
+	$("#trace8").fadeIn(15000);
+	$("#trace9").fadeIn(17000);
+});

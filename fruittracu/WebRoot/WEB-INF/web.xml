@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <servlet>
+    <servlet-name>getNameServlet</servlet-name>
+    <servlet-class>fruitservle.getNameServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>getNameServlet</servlet-name>
+    <url-pattern>/getNameServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>jidiServlet</servlet-name>
+    <servlet-class>fruitservle.jidiServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>jidiServlet</servlet-name>
+    <url-pattern>/jidiServlet</url-pattern>
+  </servlet-mapping>
+ 
+ <servlet>
+    <servlet-name>baseServlet</servlet-name>
+    <servlet-class>fruitservle.baseServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>baseServlet</servlet-name>
+    <url-pattern>/baseServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>baggingServlet</servlet-name>
+    <servlet-class>fruitservle.baggingServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>baggingServlet</servlet-name>
+    <url-pattern>/baggingServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>fertiServlet</servlet-name>
+    <servlet-class>fruitservle.fertiServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>fertiServlet</servlet-name>
+    <url-pattern>/fertiServlet</url-pattern>
+  </servlet-mapping>
+
+ <servlet>
+    <servlet-name>physicalInsecticidalsServlet</servlet-name>
+    <servlet-class>fruitservle.physicalInsecticidalsServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>physicalInsecticidalsServlet</servlet-name>
+    <url-pattern>/physicalInsecticidalsServlet</url-pattern>
+  </servlet-mapping>
+
+<servlet>
+    <servlet-name>physicalprejudicesServlet</servlet-name>
+    <servlet-class>fruitservle.physicalprejudicesServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>physicalprejudicesServlet</servlet-name>
+    <url-pattern>/physicalprejudicesServlet</url-pattern>
+  </servlet-mapping>
+
+<servlet>
+    <servlet-name>plowingsServlet</servlet-name>
+    <servlet-class>fruitservle.plowingsServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>plowingsServlet</servlet-name>
+    <url-pattern>/plowingsServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>pruningsServlet</servlet-name>
+    <servlet-class>fruitservle.pruningsServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>pruningsServlet</servlet-name>
+    <url-pattern>/pruningsServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>spraypesticidesServlet</servlet-name>
+    <servlet-class>fruitservle.spraypesticidesServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>spraypesticidesServlet</servlet-name>
+    <url-pattern>/spraypesticidesServlet</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+    <servlet-name>producelinestuffsServlet</servlet-name>
+    <servlet-class>fruitservle.producelinestuffsServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>producelinestuffsServlet</servlet-name>
+    <url-pattern>/producelinestuffsServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>packmaterialsServlet</servlet-name>
+    <servlet-class>fruitservle.packmaterialsServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>packmaterialsServlet</servlet-name>
+    <url-pattern>/packmaterialsServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>datacollectionServlet</servlet-name>
+    <servlet-class>fruitservle.datacollectionServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>datacollectionServlet</servlet-name>
+    <url-pattern>/datacollectionServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>accountServlet</servlet-name>
+    <servlet-class>fruitservle.accountServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>accountServlet</servlet-name>
+    <url-pattern>/accountServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>timedServlet</servlet-name>
+    <servlet-class>fruitservle.timedServlet</servlet-class>
+  </servlet>
+<servlet-mapping>
+    <servlet-name>timedServlet</servlet-name>
+    <url-pattern>/timedServlet</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+    <servlet-name>loginServlet</servlet-name>
+    <servlet-class>fruitservle.loginServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>setimeServlet</servlet-name>
+    <servlet-class>fruitservle.setimeServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>locationServlet</servlet-name>
+    <servlet-class>fruitservle.locationServlet</servlet-class>
+  </servlet>
+
+
+  <servlet-mapping>
+    <servlet-name>loginServlet</servlet-name>
+    <url-pattern>/loginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>setimeServlet</servlet-name>
+    <url-pattern>/setimeServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>locationServlet</servlet-name>
+    <url-pattern>/locationServlet</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>

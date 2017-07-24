@@ -1,0 +1,36 @@
+html,body
+{
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+.label
+{
+	text-align: center;
+	color: red;
+	font-size: 0.8em;
+	margin-top: 5px;
+}
+.swipe0
+{
+	height:30px;
+	width: 100%;
+	border: 0px solid black;
+	/*position: absolute;
+	    /*设置背景透明*/*/
+}
+.swipe
+{
+	/*font-size: 0.5em;*/
+}
+h1
+{
+	display: none;
+	position: relative;
+	left: -350px;
+}
+.animate1
+{
+	margin-bottom: 60px;
+}

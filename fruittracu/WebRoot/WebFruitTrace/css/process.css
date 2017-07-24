@@ -1,0 +1,15 @@
+html,body
+{
+	height: 100%;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+table tr
+{
+	border-bottom: 1px solid gainsboro;
+}
+table
+{
+	margin-bottom: 60px;
+}

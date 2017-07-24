@@ -1,0 +1,37 @@
+html,body
+{
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+.trace img
+{
+	/*height: 55px;
+	width: 55px;*/
+	margin-top: 5px;
+	border-radius: 50%;
+	width: 70%;
+}
+p
+{
+	font-size: 0.7em;
+	position: relative;
+	left: 18%;
+}
+.trace
+{
+	margin-top: 15px;
+	margin-left: 15px;
+}
+#trace1,#trace2,#trace3,#trace4,#trace5,#trace6,#trace7,#trace8,#trace9
+{
+	width: 30%;
+	float: left;
+	margin: 5px;
+	display: none;
+}
+/*#trace2
+{
+	float: left;
+}*/

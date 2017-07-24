@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>果园微信追溯首页</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" href="css/jquery.mobile-1.4.5.css" />
+		<link rel="stylesheet" href="css/index.css" />
+		<script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+		<script type="text/javascript" src="js/jquery.mobile-1.4.5.js"></script>
+		<script type="text/javascript" src="js/index.js" ></script>
+	</head>
+	<body>
+		<div data-role = "page" style="height: 100%;">
+			<div data-role = "main" class="content">
+				<div class="mainDiv">
+					<div class="topDiv">
+						<img src="img/logo.png" class="logoImg"/>
+					</div>
+					<div class="middleDiv">
+						<a class="ui-btn" id="hint" data-transition = "slideup"/>
+							<span id="hintSpan">您当前所查询的华圣苹果信息</span><br/>
+							<span class="fruitSpan">星级:</span>&nbsp;<span class="fruitName" id="fruitGrade">铂金果</span><br/>
+							<span class="fruitSpan">品种:</span>&nbsp;<span class="fruitName" id="fruitName">高原红富士</span>
+						</a>
+						<img src="img/苹果图标3.png" id="middleImg" />
+					</div>
+					<div class="bottomDiv">
+						<!--<div class="swipe" style="border: 1px solid red;">-->
+							<a class="ui-btn ui-icon-carat-u ui-btn-icon-bottom" id="swipeA" data-transition="slidedown" data-ajax = "false">点击我加载下一页</a>
+						<!--</div>-->
+						<footer data-role="footer" data-position="fixed" style="height: 50px;">
+				       		<div data-role = "navbar">
+				       			<ul>
+				       				<li><a class="ui-btn-active ui-icon-info ui-btn-icon-top">溯源信息</a></li>
+				       				<li><a class="ui-btn ui-icon-grid ui-btn-icon-top" href="traceProcess.html" data-ajax = "false">追溯流程</a></li>
+				       				<li><a class="ui-btn ui-icon-shop ui-btn-icon-top" href="purchase.html" data-ajax = "false">立即购买</a></li>
+				       				<li><a class="ui-btn ui-icon-comment ui-btn-icon-top" href="contactUs.html" data-ajax = "false">联系我们</a></li>
+				       			</ul>
+				       		</div>
+	    				</footer>	
+					</div>
+				</div>
+			</div>		
+		</div>
+	</body>
+</html>

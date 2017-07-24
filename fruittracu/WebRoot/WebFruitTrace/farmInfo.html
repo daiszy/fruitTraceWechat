@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>农事信息追溯</title>
+		<link rel="stylesheet" href="css/jquery.mobile-1.4.5.css" />
+		<link rel="stylesheet" href="css/swiper-3.4.2.min.css" />
+		<link rel="stylesheet" href="css/farmInfo.css" />
+		<script type="text/javascript" src="js/jquery-1.11.3.min.js" ></script>
+		<script type="text/javascript" src="js/jquery.mobile-1.4.5.js" ></script>
+		<script type="text/javascript" src="js/swiper-3.4.2.jquery.min.js" ></script>
+		<script type="text/javascript" src="js/farmInfo.js" ></script>
+	</head>
+	<body>
+		 <div data-role = "page" style="height: 100%;">
+		 	<div data-role = "main" style="height: 100%;">
+		 		<div class="logo">
+					<img src="img/logo.png" class="logoImg"/>
+				</div>
+				<div class="label">华圣基地介绍</div>
+				<div class="label">2017年农事信息追溯</div>
+				<div class="animate1">
+					<div data-role = "collapsible" data-iconpos = "right" class="animate">
+						<h1 id="h1">套袋记录</h1>
+						<table id="bagging">
+							<!--<tr>
+								<td>2017-07-14</td>
+								<td>套袋</td>
+							</tr>-->
+						</table>
+					</div>
+					<div data-role = "collapsible" data-iconpos = "right" class="animate">
+						<h1 id="h2">施肥记录</h1>
+						<table id="fertil">
+							<!--<tr>
+								<td>2017-07-14</td>
+								<td>施肥</td>
+							</tr>-->
+						</table>
+					</div>
+					<div data-role = "collapsible" data-iconpos = "right" class="animate">
+						<h1 id="h3">物理杀虫记录</h1>
+						<table id="insecticide">
+							<!--<tr>
+								<td>2017-07-12</td>
+								<td>杀虫</td>
+							</tr>-->
+						</table>
+					</div>
+					
+					<div data-role = "collapsible" data-iconpos = "right" class="animate">
+						<h1 id="h4">物理防害记录</h1>
+						<table id="physicalPrejudices">
+							<!--<tr>
+								<td>2017-07-14</td>
+								<td>防害</td>
+							</tr>-->
+						</table>
+					</div>
+					<div data-role = "collapsible" data-iconpos = "right" class="animate">
+						<h1 id="h5">春耕记录</h1>
+						<table id="plowings">
+							<!--<tr>
+								<td>2017-07-11</td>
+								<td>春耕</td>
+							</tr>-->
+						</table>
+					</div>
+					<div data-role = "collapsible" data-iconpos = "right" class="animate">
+						<h1 id="h6">剪枝记录</h1>
+						<table id="prunings">
+							<!--<tr>
+								<td>2017-07-14</td>
+								<td>剪枝</td>
+							</tr>-->
+						</table>
+					</div>
+					<div data-role = "collapsible" data-iconpos = "right" class="animate">
+						<h1 id="h7">喷药记录</h1>
+						<table id="sprayPesticide">
+							<!--<tr>
+								<td>2017-07-14</td>
+								<td>喷药</td>
+							</tr>-->
+						</table>
+					</div>
+				</div>
+				
+				<div class="swipe">
+					<a class="ui-btn ui-icon-carat-u ui-btn-icon-bottom" id="swipeA" data-transition="slidedown" href="process.html" data-ajax = "false">点击我加载下一页</a>
+				</div>
+				<footer data-role="footer" data-position="fixed" style="height: 50px;">	
+					<div data-role = "navbar">
+						<ul>
+						    <li><a class="ui-btn-active ui-icon-info ui-btn-icon-top">溯源信息</a></li>
+						    <li><a class="ui-btn ui-icon-grid ui-btn-icon-top" href="traceProcess.html" data-ajax = "false">追溯流程</a></li>
+						    <li><a class="ui-btn ui-icon-shop ui-btn-icon-top" href="purchase.html" data-ajax = "false">立即购买</a></li>
+						    <li><a class="ui-btn ui-icon-comment ui-btn-icon-top" href="contactUs.html" data-ajax = "false">联系我们</a></li>
+						</ul>
+					</div>
+		    	</footer>	
+		 	</div>
+		 </div>
+	</body>
+</html>

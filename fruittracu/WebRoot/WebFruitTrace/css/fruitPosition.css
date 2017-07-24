@@ -1,0 +1,103 @@
+html,body
+{
+	margin: 0px;
+	padding: 0px;
+	height: 100%;
+	width: 100%;
+	background-image: url(../img/mainbg.jpg);
+}
+span
+{
+	font-size: 0.85em;
+}
+.mainDiv
+{
+	height: 100%;
+	display: inline-block;
+}
+/*.logo
+{
+	height: 10%;
+	border-bottom: 2.2px solid gainsboro;
+}	*/
+.topInfo
+{
+	height: 13%;
+	margin-top: 5%;
+	margin-left: 5px;
+	text-align: center;
+}
+.middleInfo
+{
+	width: 100%;
+	height: 100%;
+	margin-left: 2%;
+	margin-right: 2%;
+	margin-top: 7%;
+	display: inline-block;
+}
+.bottomInfo
+{
+	margin-top: 5%;
+	height: 20%;
+	width: 100%;
+}
+.topImg
+{
+	width: 20%;
+	margin-left: 25px;
+}
+.topNamePos
+{
+	width: 80%; 
+	margin-left: 15%; 
+	margin-top: -13%;
+}
+.head
+{
+	height: 60%;
+	width: 60%;
+	border-radius: 50%;
+}
+/*.logoImg
+{
+	height: 10%;
+	width: 60%;
+}*/
+.swipe
+{
+	height:60px;
+	width: 100%;
+	border: 0px solid black;
+	position: absolute;
+	bottom: 50px;	
+	    /*设置背景透明*/
+}
+.swipe a
+{
+	font-size: 0.5em;
+	
+}
+.content
+{
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+#fruitPositonImg
+{
+	height:50%;
+	width: 97%;
+	margin-right: 10px;
+	border-radius: 3%;
+	margin-top: -10px;
+}
+#adminName
+{
+	color: red;
+}
+#fruitPosition
+{
+	width: 50%;
+	height: 100%;
+}
